@@ -1,0 +1,52 @@
+.bg-custom{
+    background-color: black;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.btn-custom{
+    background-color: rgb(246, 44, 44) !important;
+    font-weight: 800 !important;
+    color:black !important;   
+}
+
+.btn-collection{ 
+    max-width: 241px;
+    margin:  2em auto;
+}
+
+.img-card:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.06);
+    cursor: pointer;
+}
+
+.btn-ticket{  
+    max-width: 110px;
+    margin:  2em auto;
+}
+a:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.2);
+    color: white;
+}
+@keyframes animate1 {
+    0%{
+        transform: scale(1);
+        }
+    50%{
+        transform:scale(1.3);
+        }
+    100%{
+        transform: scale(1);
+        }
+}
+
